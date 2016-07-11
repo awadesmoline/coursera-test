@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Times sans-serif;
+  font-size: 1em;
+ }
 
 h1{
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-size: 1.75em;
+
 }
 
 .section {
@@ -15,11 +21,9 @@ h1{
   position: relative;
   min-height: 200px;
   min-width: 300px;
-  margin: 5px;
+  margin: 10px;
   padding: 20px;
   padding-top: 35px;
-  overflow: hidden;
-
 }
 
 
@@ -29,6 +33,7 @@ h2{
   width: 110px;
   padding: 5px;
   text-align: center;
+  font-size: 1.25em;
   position: absolute;
   right: 0px;
   top: 12px;
@@ -40,19 +45,21 @@ h2{
 p{
   padding: 10px;
   text-align: center;
+  font-size: 1em;
 
 }
 
 .chicken {
-    background-color: #ff8c38;
+    background-color: #F2B5B5;
 }
 
 .beef {
-    background-color: #913232;
+    background-color: #B33D3D;
+    color: white;
 }
 
 .sushi {
-    background-color: #369818;
+    background-color: #F2E6A1;
 }
 
 
@@ -64,8 +71,8 @@ p{
 
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
+/********** Desktop devices**********/
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     /*border: 1px solid black;*/
@@ -109,8 +116,8 @@ p{
   }
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+/********** Tablet devices**********/
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     /*border: 1px solid black;*/
