@@ -1,0 +1,24 @@
+#header-nav{
+	background-color: silver;
+}
+
+#brand {
+	color: black;
+}
+
+#page-header{
+	margin-bottom: 35px;
+}
+
+#page-content{
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+}
+
+#chicken:hover, #sushi:hover, #beef:hover{
+	background-color: white;
+}
+
