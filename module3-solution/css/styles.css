@@ -6,15 +6,28 @@
 	color: black;
 }
 
+#nav-list li {
+	font-size: 1.4em;
+}
+
 #page-header{
 	margin-bottom: 35px;
 }
 
 #page-content{
 	height: 1000px;
+	background-color: silver;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+
+}
+
+#page-content p{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+
 
 }
 
@@ -22,3 +35,7 @@
 	background-color: white;
 }
 
+h3{
+	text-align: center;
+	padding-top: 10px;
+}
